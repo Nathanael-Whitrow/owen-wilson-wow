@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      someState: 'derp',
+    }
+  }
+
+  render() {
+
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    const audioContext = new AudioContext();
+
+
+
+    return (
+      <div className="App">
+        <h1>Drum Machine</h1>
+        <div className="centerBox">
+          <p>volume goes here</p>
+          <p>buttons go in here</p>
+          <button></button>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
