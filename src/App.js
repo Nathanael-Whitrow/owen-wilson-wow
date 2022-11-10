@@ -13,11 +13,15 @@ import wow8 from './audio_files/wow8.mp3';
 
 function MyButton(props) {
 
-  const playSound = () => new Audio(props.audioSource).play();
+  const playSound = () => {
+    props.displayUpdate(props.id);
+    document.getElementById(props.actionKey).play();
+  }
+
+
 
   const detectKeyDown = (e) => {
     if (e.key.toUpperCase() === props.actionKey) {
-      props.displayUpdate(props.id);
       playSound();
     }
   }
@@ -28,6 +32,10 @@ function MyButton(props) {
 
   return (
     <button className="drum-pad" id={props.id} onClick={playSound}>
+      <audio
+        id={props.actionKey}
+        className="clip"
+        src={props.audioSource} ></audio>
       {props.actionKey}
     </button>
   )
@@ -51,8 +59,8 @@ class App extends React.Component {
     return (
       <div className="App" id="drum-machine">
         <h1>Owen Wilson Wow</h1>
-        <div className="centerBox" id="display">
-          <p>{this.state.displayText}</p>
+        <div className="centerBox">
+          <p id="display">{this.state.displayText}</p>
         </div>
         <div className="buttonHolder">
           <MyButton id={"owen wilson saying wow - 1"} audioSource={wow1} actionKey={'Q'} displayUpdate={this.setDisplay} />
