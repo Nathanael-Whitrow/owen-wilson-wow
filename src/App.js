@@ -47,7 +47,6 @@ class App extends React.Component {
       <div className="App">
         <h1>Owen Wilson Wow</h1>
         <div className="centerBox">
-          <p>volume goes here</p>
           <div className="buttonHolder">
             <MyButton audioSource={wow1} actionKey={'Q'} />
             <MyButton audioSource={wow2} actionKey={'W'} />
