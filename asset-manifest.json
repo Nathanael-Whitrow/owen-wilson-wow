@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/owen-wilson-wow/static/css/main.2ac83850.css",
+    "main.js": "/owen-wilson-wow/static/js/main.db1f6b84.js",
+    "static/js/787.c419f7a1.chunk.js": "/owen-wilson-wow/static/js/787.c419f7a1.chunk.js",
+    "static/media/hee-hee.mp3": "/owen-wilson-wow/static/media/hee-hee.b7913ada35ff58630a42.mp3",
+    "static/media/wow6.mp3": "/owen-wilson-wow/static/media/wow6.4da862bd0b25a1337fc2.mp3",
+    "static/media/wow3.mp3": "/owen-wilson-wow/static/media/wow3.af171366cddb662e7655.mp3",
+    "static/media/wow4.mp3": "/owen-wilson-wow/static/media/wow4.17b81cbd4a6d12dacea6.mp3",
+    "static/media/wow7.mp3": "/owen-wilson-wow/static/media/wow7.8a7123c7a6ace8268da5.mp3",
+    "static/media/wow8.mp3": "/owen-wilson-wow/static/media/wow8.8501edd152bbf879c1c1.mp3",
+    "static/media/wow1.mp3": "/owen-wilson-wow/static/media/wow1.1488117530869c07ca6e.mp3",
+    "static/media/wow5.mp3": "/owen-wilson-wow/static/media/wow5.359f3708b89a4b431f06.mp3",
+    "static/media/wow2.mp3": "/owen-wilson-wow/static/media/wow2.e77d2382c7e36550d66e.mp3",
+    "index.html": "/owen-wilson-wow/index.html",
+    "main.2ac83850.css.map": "/owen-wilson-wow/static/css/main.2ac83850.css.map",
+    "main.db1f6b84.js.map": "/owen-wilson-wow/static/js/main.db1f6b84.js.map",
+    "787.c419f7a1.chunk.js.map": "/owen-wilson-wow/static/js/787.c419f7a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ac83850.css",
+    "static/js/main.db1f6b84.js"
+  ]
+}
