@@ -16,7 +16,7 @@ function MyButton(props) {
   const playSound = () => new Audio(props.audioSource).play();
 
   const detectKeyDown = (e) => {
-    if (e.key === props.actionKey) {
+    if (e.key.toUpperCase() === props.actionKey) {
       playSound();
     }
   }
