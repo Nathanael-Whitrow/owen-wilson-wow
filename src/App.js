@@ -63,7 +63,7 @@ class App extends React.Component {
           <MyButton id={"owen wilson saying wow - 6"} audioSource={wow6} actionKey={'D'} displayUpdate={this.setDisplay} />
           <MyButton id={"owen wilson saying wow - 7"} audioSource={wow7} actionKey={'Z'} displayUpdate={this.setDisplay} />
           <MyButton id={"owen wilson saying wow - 8"} audioSource={wow8} actionKey={'X'} displayUpdate={this.setDisplay} />
-          <MyButton id={"Michael Jackson saying hee-hee"} audioSource={hee} actionKey={'C'} />
+          <MyButton id={"Michael Jackson saying hee-hee"} audioSource={hee} actionKey={'C'} displayUpdate={this.setDisplay} />
         </div>
       </div>
     );
