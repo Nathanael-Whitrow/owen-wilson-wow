@@ -28,6 +28,7 @@ function MyButton(props) {
 
   useEffect(() => {
     document.addEventListener('keydown', detectKeyDown, true);
+    return () => document.removeEventListener('keydown', detectKeyDown, true);
   })
 
   return (
