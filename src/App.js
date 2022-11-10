@@ -26,7 +26,7 @@ function MyButton(props) {
   })
 
   return (
-    <button onClick={playSound}>
+    <button className="audioButton" onClick={playSound}>
       {props.actionKey}
     </button>
   )
@@ -45,19 +45,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Drum Machine</h1>
+        <h1>Owen Wilson Wow</h1>
         <div className="centerBox">
           <p>volume goes here</p>
           <div className="buttonHolder">
-            <MyButton audioSource={wow1} actionKey={'q'} />
-            <MyButton audioSource={wow2} actionKey={'w'} />
-            <MyButton audioSource={wow3} actionKey={'e'} />
-            <MyButton audioSource={wow4} actionKey={'a'} />
-            <MyButton audioSource={wow5} actionKey={'s'} />
-            <MyButton audioSource={wow6} actionKey={'d'} />
-            <MyButton audioSource={wow7} actionKey={'z'} />
-            <MyButton audioSource={wow8} actionKey={'x'} />
-            <MyButton audioSource={hee} actionKey={'c'} />
+            <MyButton audioSource={wow1} actionKey={'Q'} />
+            <MyButton audioSource={wow2} actionKey={'W'} />
+            <MyButton audioSource={wow3} actionKey={'E'} />
+            <MyButton audioSource={wow4} actionKey={'A'} />
+            <MyButton audioSource={wow5} actionKey={'S'} />
+            <MyButton audioSource={wow6} actionKey={'D'} />
+            <MyButton audioSource={wow7} actionKey={'Z'} />
+            <MyButton audioSource={wow8} actionKey={'X'} />
+            <MyButton audioSource={hee} actionKey={'C'} />
           </div>
         </div>
       </div>
