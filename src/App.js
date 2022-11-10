@@ -17,6 +17,7 @@ function MyButton(props) {
 
   const detectKeyDown = (e) => {
     if (e.key.toUpperCase() === props.actionKey) {
+      props.displayUpdate(props.id);
       playSound();
     }
   }
@@ -26,7 +27,7 @@ function MyButton(props) {
   })
 
   return (
-    <button className="audioButton" onClick={playSound}>
+    <button className="drum-pad" id={props.id} onClick={playSound}>
       {props.actionKey}
     </button>
   )
@@ -37,27 +38,32 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      someState: 'derp',
+      displayText: 'Click on a drum pad...',
     }
-    // this.playSound = this.playSound.bind(this.playSound);
+    this.setDisplay = this.setDisplay.bind(this);
+  }
+
+  setDisplay(newText) {
+    this.setState({ displayText: newText });
   }
 
   render() {
     return (
-      <div className="App">
+      <div className="App" id="drum-machine">
         <h1>Owen Wilson Wow</h1>
-        <div className="centerBox">
-          <div className="buttonHolder">
-            <MyButton audioSource={wow1} actionKey={'Q'} />
-            <MyButton audioSource={wow2} actionKey={'W'} />
-            <MyButton audioSource={wow3} actionKey={'E'} />
-            <MyButton audioSource={wow4} actionKey={'A'} />
-            <MyButton audioSource={wow5} actionKey={'S'} />
-            <MyButton audioSource={wow6} actionKey={'D'} />
-            <MyButton audioSource={wow7} actionKey={'Z'} />
-            <MyButton audioSource={wow8} actionKey={'X'} />
-            <MyButton audioSource={hee} actionKey={'C'} />
-          </div>
+        <div className="centerBox" id="display">
+          <p>{this.state.displayText}</p>
+        </div>
+        <div className="buttonHolder">
+          <MyButton id={"owen wilson saying wow - 1"} audioSource={wow1} actionKey={'Q'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 2"} audioSource={wow2} actionKey={'W'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 3"} audioSource={wow3} actionKey={'E'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 4"} audioSource={wow4} actionKey={'A'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 5"} audioSource={wow5} actionKey={'S'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 6"} audioSource={wow6} actionKey={'D'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 7"} audioSource={wow7} actionKey={'Z'} displayUpdate={this.setDisplay} />
+          <MyButton id={"owen wilson saying wow - 8"} audioSource={wow8} actionKey={'X'} displayUpdate={this.setDisplay} />
+          <MyButton id={"Michael Jackson saying hee-hee"} audioSource={hee} actionKey={'C'} />
         </div>
       </div>
     );

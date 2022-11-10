@@ -24,7 +24,7 @@
   height: 337.5px;
 }
 
-.audioButton {
+.drum-pad {
   border: 2px solid var(--button-border);
   text-decoration: none;
   color: var(--text-color);
