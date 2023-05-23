@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Owen Wilson Wow Soundboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Owen Wilson Wow Soundboard is a light-hearted, web-based application designed to entertain and bring joy to users by playing different versions of the iconic "wow" from Owen Wilson. Built with JavaScript and React.js, this simple, intuitive app allows you to hear the magic of Wilson's "wow" at the click of a button.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Keyboard and Mouse support:** Either click the buttons or press the associated key!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use the sound board in your browser right now click [here](https://nathanael-whitrow.github.io/owen-wilson-wow/)
 
-### `npm test`
+These instructions will guide you on how to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Before you begin, ensure you have met the following requirements:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
+- You have a basic understanding of JavaScript and React.js.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installing and Running the App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install and run the calculator app, follow these steps:
 
-### `npm run eject`
+1. **Clone the repository**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```
+    git clone https://github.com/Nathanael-Whitrow/owen-wilson-wow.git
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navigate into the directory**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```
+    cd owen-wilson-wow
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Install dependencies**
 
-## Learn More
+    ```
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Run the application**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```
+    npm start
+    ```
 
-### Code Splitting
+After these steps, open http://localhost:3000/owen-wilson-wow in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+I love contributions from my users! If you would like to contribute to the soundboard, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository.
+2. Create a branch with your feature or bug fix.
+3. Commit your changes.
+4. Push to the branch on your fork.
+5. Submit a pull request to the main repository.
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you want to contact the maintainer of the project, you can reach out at `<nathanael.whitrow@gmail.com>`.
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Owen Wilson Wow Soundboard wouldn't be possible without the many contributors and fans of Owen Wilson who've cataloged and shared these memorable soundbites. A huge thank you to the open-source community and everyone who has contributed to the development and improvement of this project.
