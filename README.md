@@ -63,7 +63,7 @@ I love contributions from my users! If you would like to contribute to the sound
 
 ## Contact
 
-If you want to contact the maintainer of the project, you can reach out at `<nathanael.whitrow@gmail.com>`.
+If you want to contact the maintainer of the project, you can reach out at nathanael.whitrow@gmail.com.
 
 ## Acknowledgments
 
